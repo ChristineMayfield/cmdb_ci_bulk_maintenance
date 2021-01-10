@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Data Point" max_length="40" name="u_data_point" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Answer" mandatory="true" max_length="32" name="u_answer" reference="u_answer" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element display="true" label="Display Name" max_length="255" name="u_display_name" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Question" mandatory="true" max_length="32" name="u_question" reference="u_question" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="u_question"/>
+        </index>
+        <index name="index2">
+            <element name="u_answer"/>
+        </index>
+    </element>
+</database>
