@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="M2M Answer Drop Down" max_length="40" name="u_m2m_answer_drop_down" type="collection">
+    <element label="M2M Answer Drop Down" max_length="40" name="u_m2m_answer_drop_down" sizeclass="0" type="collection">
         <element label="Answer" mandatory="true" max_length="32" name="u_answer" reference="u_answer" type="reference"/>
         <element label="Drop Down Choice" mandatory="true" max_length="32" name="u_drop_down_choice" reference="u_drop_down_choices" type="reference"/>
         <index name="index">

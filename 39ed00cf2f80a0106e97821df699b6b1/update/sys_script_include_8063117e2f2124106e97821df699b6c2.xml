@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.CMDB_CI_bulkMaint_AJAX</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CMDB_CI_bulkMaint_AJAX</name>
+        <script><![CDATA[var CMDB_CI_bulkMaint_AJAX = Class.create();
+CMDB_CI_bulkMaint_AJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    getQandA: function() {
+
+        var retValQ = ''; // Return value for question display value
+        var retValA = ''; // Return value for answer display value
+        var quesID = this.getParameter('sysparm_question');
+        var ansID = this.getParameter('sysparm_answer');
+        var quesRec = new GlideRecord('u_question');
+        var ansRec = new GlideRecord('u_answer');
+
+        // If we can read the record, check if the sys_ids match
+        if (quesRec.get(quesID) && ansRec.get(ansID)) {
+            retValQ = quesRec.getValue('u_question');
+            retValA = ansRec.getValue('u_answer');
+            answerObj = {
+                'ques': retValQ,
+                'ans': retValA
+            };
+            return JSON.stringify(answerObj);
+            // retVal = 'test';
+        } else {
+            return false;
+        }
+    },
+
+    type: 'CMDB_CI_bulkMaint_AJAX'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-10 12:03:17</sys_created_on>
+        <sys_id>8063117e2f2124106e97821df699b6c2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>CMDB_CI_bulkMaint_AJAX</sys_name>
+        <sys_package display_value="CMDB CI Bulk Maintenance" source="39ed00cf2f80a0106e97821df699b6b1">39ed00cf2f80a0106e97821df699b6b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_script_include_8063117e2f2124106e97821df699b6c2</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-10 12:35:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

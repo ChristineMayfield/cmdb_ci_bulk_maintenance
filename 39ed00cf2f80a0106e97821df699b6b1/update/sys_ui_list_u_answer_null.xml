@@ -3,47 +3,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_number</element>
-            <list_id display_value="u_answer" element="NULL" name="u_answer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1accaa62f2da0106e97821df699b615</list_id>
+            <list_id display_value="u_answer" element="NULL" name="u_answer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">779aba622f61e0106e97821df699b633</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>ChristineMayfield</sys_created_by>
-            <sys_created_on>2021-01-09 21:34:15</sys_created_on>
-            <sys_id>ddaccaa62f2da0106e97821df699b615</sys_id>
+            <sys_created_on>2021-01-10 00:55:07</sys_created_on>
+            <sys_id>779aba622f61e0106e97821df699b634</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ChristineMayfield</sys_updated_by>
-            <sys_updated_on>2021-01-09 21:34:15</sys_updated_on>
+            <sys_updated_on>2021-01-10 00:55:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_answer</element>
-            <list_id display_value="u_answer" element="NULL" name="u_answer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1accaa62f2da0106e97821df699b615</list_id>
+            <list_id display_value="u_answer" element="NULL" name="u_answer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">779aba622f61e0106e97821df699b633</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>ChristineMayfield</sys_created_by>
-            <sys_created_on>2021-01-09 21:34:15</sys_created_on>
-            <sys_id>51accaa62f2da0106e97821df699b616</sys_id>
+            <sys_created_on>2021-01-10 00:55:07</sys_created_on>
+            <sys_id>fb9aba622f61e0106e97821df699b634</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ChristineMayfield</sys_updated_by>
-            <sys_updated_on>2021-01-09 21:34:15</sys_updated_on>
+            <sys_updated_on>2021-01-10 00:55:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_active</element>
-            <list_id display_value="u_answer" element="NULL" name="u_answer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d1accaa62f2da0106e97821df699b615</list_id>
+            <list_id display_value="u_answer" element="NULL" name="u_answer" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">779aba622f61e0106e97821df699b633</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>ChristineMayfield</sys_created_by>
-            <sys_created_on>2021-01-09 21:34:15</sys_created_on>
-            <sys_id>d1accaa62f2da0106e97821df699b616</sys_id>
+            <sys_created_on>2021-01-10 00:55:07</sys_created_on>
+            <sys_id>7f9aba622f61e0106e97821df699b634</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>ChristineMayfield</sys_updated_by>
-            <sys_updated_on>2021-01-09 21:34:15</sys_updated_on>
+            <sys_updated_on>2021-01-10 00:55:07</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -57,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ChristineMayfield</sys_created_by>
-            <sys_created_on>2021-01-09 21:34:15</sys_created_on>
+            <sys_created_on>2021-01-10 00:55:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d1accaa62f2da0106e97821df699b615</sys_id>
+            <sys_id>779aba622f61e0106e97821df699b633</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_answer</sys_name>
             <sys_package display_value="CMDB CI Bulk Maintenance" source="39ed00cf2f80a0106e97821df699b6b1">39ed00cf2f80a0106e97821df699b6b1</sys_package>
@@ -68,7 +68,7 @@
             <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
             <sys_update_name>sys_ui_list_u_answer_null</sys_update_name>
             <sys_updated_by>ChristineMayfield</sys_updated_by>
-            <sys_updated_on>2021-01-09 21:34:15</sys_updated_on>
+            <sys_updated_on>2021-01-10 00:55:07</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
