@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Question" max_length="40" name="u_question" sizeclass="1" type="collection">
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" read_only="true" type="string"/>
+    </element>
+</database>

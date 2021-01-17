@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="u_drop_down_choices">u_drop_down_choices</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>DDC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-10 00:28:00</sys_created_on>
+        <sys_id>e264b6a62f21e0106e97821df699b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DDC</sys_name>
+        <sys_package display_value="CMDB CI Bulk Maintenance" source="39ed00cf2f80a0106e97821df699b6b1">39ed00cf2f80a0106e97821df699b6b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_number_e264b6a62f21e0106e97821df699b64e</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-10 00:28:00</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_active" label="Active" language="en" table="u_drop_down_choices">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <help/>
+            <hint/>
+            <label>Active</label>
+            <language>en</language>
+            <name>u_drop_down_choices</name>
+            <plural>Active</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ChristineMayfield</sys_created_by>
+            <sys_created_on>2021-01-10 00:28:36</sys_created_on>
+            <sys_id>9b847aa62f21e0106e97821df699b6e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Active</sys_name>
+            <sys_package display_value="CMDB CI Bulk Maintenance" source="39ed00cf2f80a0106e97821df699b6b1">39ed00cf2f80a0106e97821df699b6b1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_documentation_u_drop_down_choices_u_active_en</sys_update_name>
+            <sys_updated_by>ChristineMayfield</sys_updated_by>
+            <sys_updated_on>2021-01-10 00:28:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
