@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-03-05 16:32:19</sys_created_on>
+        <sys_id>67c4b7b0250c7b0081cd8e677411d8be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_service_orders.maint_app</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_security_acl display_value="u_service_orders">ebc4b7b0250c7b0081cd8e677411d8bb</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_67c4b7b0250c7b0081cd8e677411d8be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:48</sys_updated_on>
+        <sys_user_role display_value="maint_app" name="maint_app">253433b0250c7b0081cd8e677411d83b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772130488a0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_67c4b7b0250c7b0081cd8e677411d8be</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:05:48</sys_created_on>
+        <sys_id>42245eca2f7120106e97821df699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:48</sys_updated_on>
+    </sys_claim>
+</record_update>

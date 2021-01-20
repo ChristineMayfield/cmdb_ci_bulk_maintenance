@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="46a017bedb6323002ffa0d53ca9619e1" sys_domain="global" table="u_maintenance_orders" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-14 22:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e631772dba323002ffa0d53ca9619f3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_maintenance_orders" name="u_maintenance_orders" sys_domain="global" view="Default view">46a017bedb6323002ffa0d53ca9619e1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-05 14:30:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-14 22:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96a017bedb6323002ffa0d53ca9619e4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_maintenance_orders" name="u_maintenance_orders" sys_domain="global" view="Default view">46a017bedb6323002ffa0d53ca9619e1</sys_ui_form>
+            <sys_ui_section caption="Activity Log" display_value="Activity Log" name="u_maintenance_orders" sys_domain="global" view="Default view">4aa017bedb6323002ffa0d53ca9619e0</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 14:59:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1f144fdad2d3b005e36a7dac828e909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_maintenance_orders" name="u_maintenance_orders" sys_domain="global" view="Default view">46a017bedb6323002ffa0d53ca9619e1</sys_ui_form>
+            <sys_ui_section caption="Originator Audit" display_value="Originator Audit" name="u_maintenance_orders" sys_domain="global" view="Default view">e9f104fdad2d3b005e36a7dac828e9ba</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:40:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>249ea98925947f0081cd8e677411d845</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_maintenance_orders" name="u_maintenance_orders" sys_domain="global" view="Default view">46a017bedb6323002ffa0d53ca9619e1</sys_ui_form>
+            <sys_ui_section caption="Checklist" display_value="Checklist" name="u_maintenance_orders" sys_domain="global" view="Default view">e09e298925947f0081cd8e677411d8fe</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:40:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a09ea98925947f0081cd8e677411d849</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_maintenance_orders" name="u_maintenance_orders" sys_domain="global" view="Default view">46a017bedb6323002ffa0d53ca9619e1</sys_ui_form>
+            <sys_ui_section caption="Related CIs" display_value="Related CIs" name="u_maintenance_orders" sys_domain="global" view="Default view">a09e298925947f0081cd8e677411d8ff</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_maintenance_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-14 22:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46a017bedb6323002ffa0d53ca9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_maintenance_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_46a017bedb6323002ffa0d53ca9619e1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:05:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721302b330000001</claim_timestamp>
+        <metadata_update_name>sys_ui_form_sections_46a017bedb6323002ffa0d53ca9619e1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:05:40</sys_created_on>
+        <sys_id>dc24daca2f7120106e97821df699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:40</sys_updated_on>
+    </sys_claim>
+</record_update>

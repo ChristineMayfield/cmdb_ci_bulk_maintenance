@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="58654ad9db3323002ffa0d53ca9619dd" sys_domain="global" table="u_data_points" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 11:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0654ad9db3323002ffa0d53ca9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_data_points" name="u_data_points" sys_domain="global" view="Default view">58654ad9db3323002ffa0d53ca9619dd</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 11:26:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_data_points</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 11:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58654ad9db3323002ffa0d53ca9619dd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_data_points</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_58654ad9db3323002ffa0d53ca9619dd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:05:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177213057e70000001</claim_timestamp>
+        <metadata_update_name>sys_ui_form_sections_58654ad9db3323002ffa0d53ca9619dd</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:05:52</sys_created_on>
+        <sys_id>83249eca2f7120106e97821df699b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:52</sys_updated_on>
+    </sys_claim>
+</record_update>

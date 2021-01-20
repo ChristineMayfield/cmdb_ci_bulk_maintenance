@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>Maintenance Order Desktop Procedures</key>
+        <language>en</language>
+        <message>&lt;span style="color:#666666;"&gt;A Maintenance Order is used to document repairs or maintenance for a single CI (Configuration Item). A Maintenance Order can be "Scheduled" which is created from a Maintenance Service Order or "Reactive" which is created from a CI / Asset record, from the Service catalog item "Maintenance Order" or from a failed Scheduled Maintenance or Site Walk Thru Data Point. &lt;b&gt;&#13;
+&#13;
+For more information, you can view the Knowledge article, &lt;a id="permalink" class="linked" style="color:#666666;"  href="/nav_to.do?uri=%2Fkb_view.do%3Fsys_kb_id%3D4646890a74a5f780e0a8ff3bf1e11db2"  target="_blank"&gt;Maintenance Order Desktop Procedures&lt;/a&gt;&lt;/b&gt; for step by step instructions on how to create Maintenance Orders and the data records that feed into this process. </message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-03-18 11:27:47</sys_created_on>
+        <sys_id>ab6b294925947f0081cd8e677411d844</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Maintenance Order Desktop Procedures</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_ui_message_ab6b294925947f0081cd8e677411d844</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:26:16</sys_updated_on>
+    </sys_ui_message>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177214306cf0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_message_ab6b294925947f0081cd8e677411d844</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:26:16</sys_created_on>
+        <sys_id>8ed81a462fb120106e97821df699b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

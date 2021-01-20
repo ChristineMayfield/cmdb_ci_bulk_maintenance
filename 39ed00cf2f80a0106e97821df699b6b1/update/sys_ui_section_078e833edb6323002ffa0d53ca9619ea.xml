@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="078e833edb6323002ffa0d53ca9619ea" sys_domain="global" table="u_maintenance_orders" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>9fde4435ad6d3b005e36a7dac828e9d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <text>Maintenance Order Desktop Procedures</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>57de4435ad6d3b005e36a7dac828e9d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">65925ffedb6323002ffa0d53ca961984</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>9fde4435ad6d3b005e36a7dac828e9d3</element>
+            <position>1</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>2fde4435ad6d3b005e36a7dac828e9d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>afde4435ad6d3b005e36a7dac828e9d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>3</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>23de4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>4</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>a3de4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci.model_id</element>
+            <position>5</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>27de4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci.location</element>
+            <position>6</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>a7de4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci.location.parent</element>
+            <position>7</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>2bde4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci.serial_number</element>
+            <position>8</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>abde4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>2fde4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>10</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>afde4435ad6d3b005e36a7dac828e9d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>11</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>23de4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>12</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>a3de4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>13</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>27de4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>14</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>a7de4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_add_template_data_points</element>
+            <position>15</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>2bde4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>abde4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>2fde4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>18</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>afde4435ad6d3b005e36a7dac828e9d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_orders</element>
+            <position>19</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>23de4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>a3de4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_scheduled_date</element>
+            <position>21</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>27de4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_apl_failure</element>
+            <position>22</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>a7de4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>23</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>2bde4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>24</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>abde4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>25</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>2fde4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_corrective_actions_taken</element>
+            <position>26</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-21 15:55:49</sys_created_on>
+            <sys_id>afde4435ad6d3b005e36a7dac828e9d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_maintenance_orders" sys_domain="global" view="Default view">078e833edb6323002ffa0d53ca9619ea</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-05-21 15:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_maintenance_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-14 22:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>078e833edb6323002ffa0d53ca9619ea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_maintenance_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_section_078e833edb6323002ffa0d53ca9619ea</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:06:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772130c0a40000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_078e833edb6323002ffa0d53ca9619ea</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:06:19</sys_created_on>
+        <sys_id>e5441a0e2f7120106e97821df699b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:06:19</sys_updated_on>
+    </sys_claim>
+</record_update>

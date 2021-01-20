@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>Data Point Parameter Fail</key>
+        <language>en</language>
+        <message>&lt;span style="color:#666666;"&gt;Select the specific conditions that will equal a "fail" parameter condition. Values entered by the user in the associated data record that match the below, will trigger a new Maintenance Order creation. For Example: if the fail parameter is set to Answer Type: Equal to, Parameter Value: No and the user enters "No" in a data record that uses this data point and submits the Scheduled Maintenance / Site Walk Thru, a new Maintenance Order will be created for that CI that failed Maintenance.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-03-18 11:47:24</sys_created_on>
+        <sys_id>703035c925947f0081cd8e677411d85f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Data Point Parameter Fail</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_ui_message_703035c925947f0081cd8e677411d85f</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:26:18</sys_updated_on>
+    </sys_ui_message>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721430cea0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_message_703035c925947f0081cd8e677411d85f</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:26:18</sys_created_on>
+        <sys_id>56d85a462fb120106e97821df699b610</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:26:18</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Site Walk Thru Data" max_length="40" name="u_site_walk_thru_data" sizeclass="0" type="collection"/>
+</database>

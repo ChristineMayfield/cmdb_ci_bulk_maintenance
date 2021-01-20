@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Data Questions" max_length="40" name="u_data_questions" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element display="true" label="Question" mandatory="true" max_length="100" name="u_question" type="string"/>
+    </element>
+</database>

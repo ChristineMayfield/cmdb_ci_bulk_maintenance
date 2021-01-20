@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.detail_row=short_description,all_tables.display_color=priority,all_tables.live_feed=true,all_tables.text_index_translations=true,extension_model=hierarchy,hasListeners=true,largeTable=true,reference_index_include=active" label="Task" max_length="40" name="task" sizeclass="29819" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,tree_picker=true" default="Maintenance" defaultsort="-1" label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="ref_ac_order_by=sys_class_name,ref_contributions=true,ref_ac_columns=sys_class_name,ref_auto_completer=AJAXTableCompleter,edge_encryption_enabled=true" audit="true" dependent="company" dependent_on_field="company" hint="Item or service affected" label="Configuration item" max_length="32" name="cmdb_ci" reference="cmdb_ci" reference_qual="javascript: u_getCIRefQual" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element attributes="no_truncate=true,knowledge_search=true,ts_weight=10,edge_encryption_enabled=true" choice="2" display="true" label="Short Description" max_length="160" name="short_description" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Issue with a web page" value="Issue with a web page"/>
+                <element inactive_on_update="false" label="Issue with email" value="Issue with email"/>
+                <element inactive_on_update="false" label="Issue with networking" value="Issue with networking"/>
+                <element inactive_on_update="false" label="New employee hire" value="New employee hire"/>
+                <element inactive_on_update="false" label="Request for a Blackberry" value="Request for a Blackberry"/>
+                <element inactive_on_update="false" label="Request for a new service" value="Request for a new service"/>
+                <element inactive_on_update="false" label="Request for help" value="Request for help"/>
+                <element inactive_on_update="false" label="Request for new or upgraded hardware" value="Request for new or upgraded hardware"/>
+                <element inactive_on_update="false" label="Request for new or upgraded software" value="Request for new or upgraded software"/>
+                <element inactive_on_update="false" label="Reset my password" value="Reset my password"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="cmdb_ci"/>
+            <element name="active"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+            <element name="active"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Maintenance Data" max_length="40" name="u_maintenance_data" sizeclass="0" type="collection">
+        <element label="Comments / Data" max_length="400" name="u_comments_data" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Configuration Item" max_length="32" name="u_configuration_item" reference="cmdb_ci" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Data Point" max_length="32" name="u_data_point" reference="u_data_points" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Maintenance Order" max_length="32" name="u_maintenance_order" read_only="true" reference="u_maintenance_orders" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Decimal Number Answer" max_length="20" name="u_number_answer" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Value" max_length="20" name="u_value" type="decimal"/>
+        <element label="Work Notes" max_length="4000" name="u_work_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Yes / No" max_length="40" name="u_yes_no" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_data_point"/>
+        </index>
+        <index name="index2">
+            <element name="u_maintenance_order"/>
+        </index>
+        <index name="index3">
+            <element name="u_configuration_item"/>
+        </index>
+    </element>
+</database>

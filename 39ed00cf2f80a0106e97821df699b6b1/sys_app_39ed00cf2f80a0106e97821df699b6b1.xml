@@ -12,7 +12,7 @@
         <license_definition/>
         <license_model>none</license_model>
         <logo/>
-        <menu display_value="CMDB CI Bulk Maintenance">b9ed84cf2f80a0106e97821df699b646</menu>
+        <menu/>
         <name>CMDB CI Bulk Maintenance</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -34,7 +34,7 @@
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
-        <user_role display_value="cmdb_ci_bulk_maintenance_user" name="cmdb_ci_bulk_maintenance_user">b9ed84cf2f80a0106e97821df699b6a1</user_role>
+        <user_role/>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>

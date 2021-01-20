@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition>!current.u_number_to_create.nil() &amp;&amp; !current.u_days.nil() &amp;&amp; !current.u_start_date.nil() &amp;&amp; !current.u_end_date.nil()</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Create Maintenance Service Order Records</name>
+        <onclick>createRecords()</onclick>
+        <order>100</order>
+        <script><![CDATA[ //gs.addInfoMessage('running');
+var callScriptInclude = new MaintenanceUtils().createMaintServiceRecords(current);
+
+action.setRedirectURL(current);  
+// var ci = current.u_days;
+// gs.addInfoMessage(ci);
+// var ci_filter = current.u_ci_records;
+// gs.addInfoMessage(ci_filter);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 13:46:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1015e6d9dbb323002ffa0d53ca9619fe</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Create Maintenance Service Order Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_ui_action_1015e6d9dbb323002ffa0d53ca9619fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:45</sys_updated_on>
+        <table>u_maintenance_templates</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721303ba60000001</claim_timestamp>
+        <metadata_update_name>sys_ui_action_1015e6d9dbb323002ffa0d53ca9619fe</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:05:45</sys_created_on>
+        <sys_id>d5241eca2f7120106e97821df699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:45</sys_updated_on>
+    </sys_claim>
+</record_update>

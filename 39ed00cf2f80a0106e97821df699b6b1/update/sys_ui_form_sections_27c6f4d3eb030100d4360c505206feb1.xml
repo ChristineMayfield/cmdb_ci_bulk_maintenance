@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="27c6f4d3eb030100d4360c505206feb1" sys_domain="global" table="sys_dictionary" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2014-02-21 00:31:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3ce7e41eb031100d4360c505206fed9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_dictionary" name="sys_dictionary" sys_domain="global" view="Default view">27c6f4d3eb030100d4360c505206feb1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_dictionary" sys_domain="global" view="Default view">050e5f0cc611228601176e5ff3e8f412</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2014-02-21 00:31:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2014-02-21 00:31:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3ce7e41eb031100d4360c505206fed9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_dictionary" name="sys_dictionary" sys_domain="global" view="Default view">27c6f4d3eb030100d4360c505206feb1</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_dictionary" sys_domain="global" view="Default view">0b354ed7eb030100d4360c505206fe1e</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2014-02-21 00:31:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2014-02-24 17:46:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8780a52eb031100d4360c505206febc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_dictionary" name="sys_dictionary" sys_domain="global" view="Default view">27c6f4d3eb030100d4360c505206feb1</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_dictionary" sys_domain="global" view="Default view">439d439beb030100d4360c505206fe5e</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2014-02-24 17:46:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2017-06-20 16:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>141cd3545b233200656847cc11f91a16</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_dictionary" name="sys_dictionary" sys_domain="global" view="Default view">27c6f4d3eb030100d4360c505206feb1</sys_ui_form>
+            <sys_ui_section caption="Function Definition" display_value="Function Definition" name="sys_dictionary" sys_domain="global" view="Default view">941c93545b233200656847cc11f91ad4</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2017-06-20 16:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2014-02-24 17:41:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c474652eb031100d4360c505206fe3a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_dictionary" name="sys_dictionary" sys_domain="global" view="Default view">27c6f4d3eb030100d4360c505206feb1</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_dictionary" sys_domain="global" view="Default view">3bb1165beb030100d4360c505206fe31</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2014-02-24 17:46:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 11:44:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db694adddb3323002ffa0d53ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_dictionary" name="sys_dictionary" sys_domain="global" view="Default view">27c6f4d3eb030100d4360c505206feb1</sys_ui_form>
+            <sys_ui_section caption="Dependant Value" display_value="Dependant Value" name="sys_dictionary" sys_domain="global" view="Default view">1b694adddb3323002ffa0d53ca961944</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 11:44:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_dictionary</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2013-08-12 18:12:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27c6f4d3eb030100d4360c505206feb1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>sys_dictionary</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Tables and Columns" source="com.glide.tables_and_columns">550c8fa5db31001070b929e1ca961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_27c6f4d3eb030100d4360c505206feb1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:06:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772130c1880000001</claim_timestamp>
+        <metadata_update_name>sys_ui_form_sections_27c6f4d3eb030100d4360c505206feb1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:06:19</sys_created_on>
+        <sys_id>69441a0e2f7120106e97821df699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:06:19</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772130c17a0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_form_sections_27c6f4d3eb030100d4360c505206feb1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.glide.tables_and_columns</previous_claim_name>
+        <previous_claim_scope>com.glide.tables_and_columns</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:06:19</sys_created_on>
+        <sys_id>2d441a0e2f7120106e97821df699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:06:19</sys_updated_on>
+    </sys_claim>
+</record_update>

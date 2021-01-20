@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Maintenance Orders" max_length="40" name="u_maintenance_orders" sizeclass="0" type="collection">
+        <element label="APL Deliquency" max_length="160" name="u_apl_failure" type="glide_date"/>
+        <element label="Corrective Actions Taken" max_length="4000" name="u_corrective_actions_taken" type="string"/>
+        <element label="Scheduled Date" max_length="40" name="u_scheduled_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Service Order" max_length="32" name="u_service_orders" read_only="true" reference="u_service_orders" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Reactive" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reactive" value="Reactive"/>
+                <element inactive_on_update="false" label="Scheduled" value="Scheduled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="/kb_view.do?sys_kb_id=72f9d7746080bb0081cdbefedee7f14d" label="Standard Operating Procedures" max_length="1024" name="u_url_1" type="url"/>
+    </element>
+</database>

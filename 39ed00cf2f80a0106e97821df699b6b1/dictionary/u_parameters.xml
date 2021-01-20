@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Parameters" max_length="40" name="u_parameters" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element display="true" label="Description" mandatory="true" max_length="100" name="u_description" type="string"/>
+        <element label="Notes" max_length="4000" name="u_notes" type="journal_input"/>
+        <element label="Parameter" mandatory="true" max_length="100" name="u_parameter" type="string"/>
+    </element>
+</database>

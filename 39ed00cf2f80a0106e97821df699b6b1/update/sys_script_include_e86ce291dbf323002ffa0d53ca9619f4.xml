@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.MaintenanceUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Used to create most records used in the Maintenance application</description>
+        <name>MaintenanceUtils</name>
+        <script><![CDATA[var MaintenanceUtils = Class.create();
+MaintenanceUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	createMaintServiceRecords: function(rec) {
+
+		//Farid work
+		var itemCount = 0;
+		var cmdb_ci = new GlideRecord(rec.getDisplayValue('u_table'));
+		cmdb_ci.orderByDesc('name');
+		cmdb_ci.addEncodedQuery(rec.u_ci_records);
+		cmdb_ci.setLimit(15);
+		cmdb_ci.query();
+		var totalCI = cmdb_ci.getRowCount();
+
+		var increamenter = 1;
+		for(var i=0;i< parseInt(rec.u_number_to_create);i++){
+			var gdt = new GlideDateTime(rec.u_start_date.toString());
+			var gr = new GlideRecord('u_service_orders');
+			gr.initialize();
+			gr.u_name = rec.short_description;
+			gr.u_template = rec.sys_id;
+			gdt.addDaysLocalTime(increamenter);  //add Days according to Instace Local Time.	
+			gr.u_scheduled_due_date =gdt.getLocalDate();
+			gr.u_original_scheduled_due_date = gdt.getLocalDate();
+
+			gr.u_of_cis = totalCI;
+			increamenter = increamenter + rec.u_days;
+			gr.insert();
+		}
+	},
+	
+	createSiteWalkThru: function (current){//intiated from Planned SWT
+
+		var gr = new GlideRecord('u_site_walk_thru');
+		gr.initialize();
+		gr.setValue('short_description',current.u_name);
+		gr.location = current.u_location;
+		gr.u_scheduled_date = current.u_scheduled_due_date;
+		gr.description = current.u_notes;
+		gr.setValue('u_planned_swt',current.sys_id);
+		var swtRec = gr.insert();
+	
+		current.u_status = 'created';
+		current.update();
+				
+//find the templates associated to this SWT master template
+var grTemps = new GlideRecord('u_m2m_swt_template_maintenance');
+grTemps.addQuery('u_swt_template', current.u_template.sys_id);
+grTemps.query();
+var ciRec;
+
+while (grTemps.next()){//iterate through each sub-template and get list of CIs
+	if(grTemps.u_maintenance_templates.u_cylinder_template == true){
+		this._finishSWTdata('location', current, grTemps,swtRec);
+	}
+	else{
+		this._finishSWTdata('location.parent', current, grTemps,swtRec);
+	}}
+	},
+	
+_finishSWTdata: function (string, plnSWT, m2mTemp,nwRec){//intiated from Planned SWT
+	var str = string;
+	var current = plnSWT;
+	var grTemps = m2mTemp;
+	var swtRec = nwRec;
+		
+	var ciRec = new GlideRecord('cmdb_ci');
+	ciRec.addQuery('model_id', grTemps.u_maintenance_templates.u_model);
+	ciRec.addQuery(str, current.u_location);	
+	ciRec.setLimit(15);
+	ciRec.query();		
+	while(ciRec.next()){	
+	var dpRec = new GlideRecord('u_m2m_maintenance_data_points');
+	dpRec.addQuery('u_maintenance_templates',grTemps.u_maintenance_templates.sys_id);
+	dpRec.query();
+	while(dpRec.next()){
+		var grNew = new GlideRecord('u_site_walk_thru_data');//create one site walk thru data record for each CI, data point, in each template
+		grNew.initialize();
+		grNew.u_site_walk_thru = swtRec;
+		grNew.u_data_point = dpRec.u_data_points.sys_id;
+		grNew.u_configuration_item = ciRec.sys_id;
+		grNew.insert();
+	}}
+	},
+	
+	createMaintServiceRecordsOnLocation: function(rec) {
+
+		//Farid work
+		var itemCount = 0;
+		var temp = new GlideRecord('u_maintenance_templates');
+		temp.get(rec.u_maintenance_template.sys_id);
+		var cmdb_ci = new GlideRecord(temp.getDisplayValue('u_table'));
+		cmdb_ci.orderByDesc('name');
+		cmdb_ci.addEncodedQuery(temp.u_ci_records);
+		cmdb_ci.setLimit(15);
+		cmdb_ci.query();
+		var totalCI = cmdb_ci.getRowCount();
+		var increamenter = 1;
+
+		for(var i=0;i< parseInt(rec.u_number_of_service_orders_to_create);i++){
+
+			var gdt = new GlideDateTime(rec.u_start_date.toString());
+			var gr = new GlideRecord('u_service_orders');
+			gr.initialize();
+			gr.u_name = temp.short_description;
+			gr.u_template = temp.sys_id;
+			gdt.addDaysLocalTime(increamenter);  //add Days according to Instace Local Time.
+			//gdt.add(increamenter);
+			gr.u_scheduled_due_date =gdt.getLocalDate();
+			gr.u_original_scheduled_due_date = gdt.getLocalDate();
+
+			gr.u_location = rec.sys_id;
+			//gr.u_of_cis = totalCI;
+			increamenter = increamenter + temp.u_days;
+			gr.insert();
+
+		}
+	},
+		
+createPlannedSWT: function(rec) {
+
+var incrementor = 1;
+
+for(var i=0;i< parseInt(rec.u_number_planned_swts);i++){
+var gdt = new GlideDateTime(rec.u_start_date.toString());
+	var gr = new GlideRecord('u_planned_site_walk_thru');
+	gr.initialize();
+	gr.u_name = rec.u_display_name;
+	gr.u_template = rec.sys_id;
+	gdt.addDaysLocalTime(incrementor);  //add Days according to Instance Local Time.
+	gr.u_scheduled_due_date =gdt.getLocalDate();
+	gr.u_notes = rec.u_notes;
+	gr.u_original_scheduled_due_date = gdt.getLocalDate();
+	gr.u_location = rec.u_location.sys_id;
+	incrementor = incrementor + rec.u_days;
+	gr.insert();
+
+}
+	},
+
+	getCI:function(current){
+		var gr = new GlideRecord('cmdb_ci');
+		gr.addEncodedQuery(current.u_template.u_ci_records);
+		gr.orderByDesc('sys_created_on');
+		gr.setLimit(15);
+		gr.query();
+		gr.next();
+		return gr.sys_id;
+	},
+
+	//Function to create Maintanence order from Maintenance Service Order (UI ACTION)
+	createScheduledMaintanenceOrder:function (current){
+
+		var cmdb_ci = new GlideRecord('cmdb_ci');
+		//cmdb_ci.addEncodedQuery(current.u_template.u_ci_records);
+		cmdb_ci.addQuery('location',current.u_location);
+		cmdb_ci.addQuery('model_id',current.u_template.u_model);
+		cmdb_ci.setLimit(15);//change limit as per need, this will restrict number of CIs pulled
+		cmdb_ci.query();
+		while(cmdb_ci.next()){//Created maintenance orders out of service orders with affected ci. Limit being 15.
+			
+			var gr = new GlideRecord('u_maintenance_orders');
+			gr.initialize();
+			gr.setValue('short_description',current.u_name);
+			gr.u_scheduled_date = current.u_scheduled_due_date;
+			gr.setValue('u_type','Scheduled');
+			gr.description = current.u_notes;
+			gr.setValue('cmdb_ci',cmdb_ci.sys_id);
+
+			gr.setValue('u_service_orders',current.sys_id);
+			var maintRec = gr.insert();
+	
+			current.u_status = 'created';
+			current.update();
+			var servRec = current;
+
+			this._createMaintenanceData(maintRec, servRec);
+		}
+	},
+
+	createRecs: function(temp) {
+		var rec = temp;
+	},
+
+	_createMaintenanceData: function(maintRec, servRec) {//created to create Maintenance Data records with data points along with the created Maintenance Orders
+
+		var mRec = maintRec; //sys_id
+		var mTemp = servRec.u_template.sys_id;
+
+		var gr = new GlideRecord('u_m2m_maintenance_data_points');
+		gr.addQuery('u_maintenance_templates', mTemp);
+		gr.query();
+		while(gr.next()){
+			var grNew = new GlideRecord('u_maintenance_data');
+			grNew.initialize();
+			grNew.u_maintenance_order = mRec;
+			grNew.u_data_point = gr.u_data_points.sys_id;
+			grNew.insert();
+		}
+	},
+	
+		createMaintenanceDataAdHoc: function(maintOrder) {//create Ad Hoc Maintenance Data records for existing Maintenance Orders using Add Template Data Points field
+
+		var mRec = maintOrder.sys_id; //glideRecord object
+		var mTemp = maintOrder.u_add_template_data_points.sys_id;
+
+		var gr = new GlideRecord('u_m2m_maintenance_data_points');
+		gr.addQuery('u_maintenance_templates', mTemp);
+		gr.query();
+		while(gr.next()){
+			var grNew = new GlideRecord('u_maintenance_data');
+			grNew.initialize();
+			grNew.u_maintenance_order = mRec;
+			grNew.u_data_point = gr.u_data_points.sys_id;
+			grNew.insert();
+		}
+	},
+	
+	locationTemplateQualifier: function(sys_id){
+		var query = "number=XXXabcZZZ";
+		var item = new GlideRecord('cmdb_ci');
+		item.addQuery('location',sys_id);
+		item.query();
+		while(item.next()){
+			var gr = new GlideRecord('u_maintenance_templates');
+			gr.query();
+			while(gr.next()){
+				//gs.addInfoMessage("CI Model:"+gr.cmdb_ci.model_id+"::Model:"+gr.u_model+"::CI Location:"+gr.cmdb_ci.location.sys_id.toString()+ "::Current Location Sys ID:"+sys_id);
+				if(gr.u_model == item.model_id && item.location.sys_id.toString() == sys_id.toString()){
+					if(query != "number=XXXabcZZZ")
+						query += "^OR";
+					else
+						query = "";
+					query += "sys_id="+gr.sys_id;
+
+				}
+			}}
+		//gs.addInfoMessage(query);
+		return query;
+	},
+	
+	//Farid Work: Function is used in two UI Actions to restrict access & allow only to Maint_app_admin role only.
+	hasRoleExactly: function(role) {
+		var au = new ArrayUtil();
+		var roles = gs.getSession().getRoles() + ''; 
+		var roleArray = roles.split(","); 
+		var isAuthorized = au.contains(roleArray, role); 
+		return isAuthorized; 
+	},
+
+	type: 'MaintenanceUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 14:17:29</sys_created_on>
+        <sys_id>e86ce291dbf323002ffa0d53ca9619f4</sys_id>
+        <sys_mod_count>190</sys_mod_count>
+        <sys_name>MaintenanceUtils</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_script_include_e86ce291dbf323002ffa0d53ca9619f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:06:41</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177213118f90000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_e86ce291dbf323002ffa0d53ca9619f4</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:06:41</sys_created_on>
+        <sys_id>8f54de0e2f7120106e97821df699b632</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:06:41</sys_updated_on>
+    </sys_claim>
+</record_update>

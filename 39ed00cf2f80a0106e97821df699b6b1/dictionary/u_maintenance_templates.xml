@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Maintenance Templates" max_length="40" name="u_maintenance_templates" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Buffer Days" max_length="40" name="u_buffer_days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_table" dependent_on_field="u_table" label="CI records" max_length="4000" name="u_ci_records" type="conditions" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Scheduled Recurrence (Days)" max_length="40" name="u_days" type="integer"/>
+        <element label="End date" max_length="40" name="u_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of CIs returned" max_length="40" name="u_number_of_cis_returned" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Service Orders to create" max_length="40" name="u_number_to_create" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="maintenance order" label="Record Type" max_length="40" name="u_record_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maintenance Order" value="maintenance order"/>
+                <element inactive_on_update="false" label="Walk Thru" value="walk thru"/>
+            </choice>
+        </element>
+        <element label="Start Date" max_length="40" name="u_start_date" type="glide_date"/>
+        <element attributes="base_start=true,edge_encryption_enabled=true" default="cmdb_ci" label="Table" max_length="80" name="u_table" read_only="true" type="table_name"/>
+    </element>
+</database>

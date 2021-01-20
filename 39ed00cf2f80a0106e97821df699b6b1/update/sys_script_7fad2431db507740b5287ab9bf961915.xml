@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_maintenance_orders</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="u_maintenance_orders">stateCHANGESTO3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>cmdb CI closed to last maintenance</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var ci = new  GlideRecord('cmdb_ci');
+
+	if(current.u_type == "Scheduled"){
+	ci.get(current.cmdb_ci.sys_id);
+	ci.u_last_maintenance_completed = current.closed_at;
+	ci.update();}
+	
+	var maint_data = new GlideRecord('u_maintenance_data');
+	maint_data.addEncodedQuery('u_maintenance_order='+current.sys_id+'^u_parameter_evaluation=fail');
+	maint_data.query();
+	if(maint_data.hasNext()){
+		while(maint_data.next()){
+			var rec_maint_order = new GlideRecord('u_maintenance_orders'); 
+			rec_maint_order.initialize();
+			rec_maint_order.u_type = 'Reactive';
+			//	Scheduled Maintenance Order "Affected CI" -> Reactive Maintenance Order "Affected CI"
+			rec_maint_order.cmdb_ci = current.cmdb_ci;
+			//	Scheduled Maintenance Order "Sys id" -> Reactive Maintenance Order "Parent"
+			rec_maint_order.parent = current.sys_id;
+			//	Text "This reactive maintenance order was created from Maintenance Order <Scheduled Maintenance Order "Number"> because the parameter check failed" <- Reactive Maintenance Order "Description of Issue"
+			rec_maint_order.short_description = "This reactive maintenance order was created from Maintenance Order "+current.number+" because the parameter check failed";
+			/*Description = Question:  <Maintenance order. Maintenance Data. Data Point. Question. Name>
+			                Answer  :  <Maintenance order. Maintenance Data. Data Point. Answer. Name>" ...
+			*/
+			var tempStr = "Details on the failed parameter check are:\n Question: "+maint_data.u_data_point.u_questions.u_question.getDisplayValue()+"\n  Answer: "+maint_data.u_data_point.u_answer.u_answer+"\n User provided data ";
+			tempStr += (maint_data.u_data_point.u_answer_type == 'choice' ? maint_data.u_choice_answer2.u_name :maint_data.u_number_answer);
+			rec_maint_order.description = tempStr;
+			rec_maint_order.insert();
+			
+		}
+	}
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>fshaikh</sys_created_by>
+        <sys_created_on>2019-03-20 14:55:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fad2431db507740b5287ab9bf961915</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>cmdb CI closed to last maintenance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_script_7fad2431db507740b5287ab9bf961915</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:30:35</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7fad2431db507740b5287ab9bf961915"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772146f7800000001</claim_timestamp>
+        <metadata_update_name>sys_script_7fad2431db507740b5287ab9bf961915</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:30:35</sys_created_on>
+        <sys_id>09d9da8a2fb120106e97821df699b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:30:35</sys_updated_on>
+    </sys_claim>
+</record_update>

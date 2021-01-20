@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_of_cis" label="# of CIs" language="en" table="u_service_orders">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_of_cis</element>
+            <help/>
+            <hint/>
+            <label># of CIs</label>
+            <language>en</language>
+            <name>u_service_orders</name>
+            <plural># of CIs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-21 03:40:11</sys_created_on>
+            <sys_id>8d8d1fb9dbd47740b5287ab9bf961932</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name># of CIs</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_documentation_u_service_orders_u_of_cis_en</sys_update_name>
+            <sys_updated_by>ChristineMayfield</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:30:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772146f8f40000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_service_orders_u_of_cis_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:30:35</sys_created_on>
+        <sys_id>85d9da8a2fb120106e97821df699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:30:35</sys_updated_on>
+    </sys_claim>
+</record_update>
