@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:05:11</sys_created_on>
+        <sys_id>810452ca2f7120106e97821df699b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_maintenance_templates.maint_app</sys_name>
+        <sys_package display_value="CMDB CI Bulk Maintenance" source="39ed00cf2f80a0106e97821df699b6b1">39ed00cf2f80a0106e97821df699b6b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_security_acl display_value="u_maintenance_templates">490452ca2f7120106e97821df699b688</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_810452ca2f7120106e97821df699b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:11</sys_updated_on>
+        <sys_user_role display_value="maint_app" name="maint_app">253433b0250c7b0081cd8e677411d83b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

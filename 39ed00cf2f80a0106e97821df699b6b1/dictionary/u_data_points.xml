@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Data Points" max_length="40" name="u_data_points" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Answer" mandatory="true" max_length="32" name="u_answer" reference="u_data_answers" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_table_for_parameter_filter" dependent_on_field="u_table_for_parameter_filter" label="conditions" max_length="4000" name="u_conditions" reference="u_data_points" type="conditions" use_dependent_field="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var disValue = &quot;Q: &quot; + current.u_questions.getDisplayValue() + &quot; and A: &quot; + current.u_answer.getDisplayValue();&#10;&#9;return disValue;  // return the calculated value&#10;&#10;})(current);" display="true" label="Display Name" max_length="100" name="u_display_name" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Question" mandatory="true" max_length="32" name="u_questions" reference="u_data_questions" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element attributes="base_start=true,edge_encryption_enabled=true" default="u_parameters" label="Table for Parameter Filter" max_length="80" name="u_table_for_parameter_filter" read_only="true" type="table_name"/>
+        <index name="index">
+            <element name="u_questions"/>
+        </index>
+        <index name="index2">
+            <element name="u_answer"/>
+        </index>
+    </element>
+</database>

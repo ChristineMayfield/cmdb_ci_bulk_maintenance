@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f27e32b20a0a0b64001a35491e9032ed" sys_domain="global" table="cmdb_ci_win_server" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>90a264d3dbf47b00b5287ab9bf9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>1</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>58a264d3dbf47b00b5287ab9bf9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>2</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>d8a264d3dbf47b00b5287ab9bf9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset</element>
+            <position>3</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>5ca264d3dbf47b00b5287ab9bf9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_eol_date</element>
+            <position>4</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>dca264d3dbf47b00b5287ab9bf9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>5</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>50a264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>d0a264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>7</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>54a264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>8</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>d4a264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id</element>
+            <position>9</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>58a264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>10</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>d8a264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_last_maintenance_completed</element>
+            <position>11</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>5ca264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owned_by</element>
+            <position>12</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>dca264d3dbf47b00b5287ab9bf9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>13</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-04-19 02:25:57</sys_created_on>
+            <sys_id>50a264d3dbf47b00b5287ab9bf9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_win_server" sys_domain="global" view="Default view">f27e32b20a0a0b64001a35491e9032ed</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-04-19 02:25:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmdb_ci_win_server</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2007-09-11 02:55:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f27e32b20a0a0b64001a35491e9032ed</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>cmdb_ci_win_server</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">734cc769db31001070b929e1ca9619a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_section_f27e32b20a0a0b64001a35491e9032ed</sys_update_name>
+            <sys_updated_by>ChristineMayfield</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:30:34</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772146f5690000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_f27e32b20a0a0b64001a35491e9032ed</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:30:34</sys_created_on>
+        <sys_id>b0d9da8a2fb120106e97821df699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:30:34</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772146f5540000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_f27e32b20a0a0b64001a35491e9032ed</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.cmdb</previous_claim_name>
+        <previous_claim_scope>com.snc.cmdb</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:30:34</sys_created_on>
+        <sys_id>74d9da8a2fb120106e97821df699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:30:34</sys_updated_on>
+    </sys_claim>
+</record_update>

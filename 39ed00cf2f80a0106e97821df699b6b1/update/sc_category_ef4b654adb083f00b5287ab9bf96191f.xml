@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Maintenance Related Requests</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>card</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>fshaikh</sys_created_by>
+        <sys_created_on>2019-03-09 03:44:21</sys_created_on>
+        <sys_id>ef4b654adb083f00b5287ab9bf96191f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Maintenance</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sc_category_ef4b654adb083f00b5287ab9bf96191f</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:13:53</sys_updated_on>
+        <title>Maintenance</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef4b654adb083f00b5287ab9bf96191f"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>4859</size_bytes>
+        <size_compressed>4882</size_compressed>
+        <state/>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-03-11 14:15:58</sys_created_on>
+        <sys_id>782fca7225c4fb0081cd8e677411d8fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+        <sys_updated_on>2019-03-11 14:15:58</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>ef4b654adb083f00b5287ab9bf96191f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="782fca7225c4fb0081cd8e677411d8fb">782fca7225c4fb0081cd8e677411d8fb</sys_attachment>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-03-11 14:15:58</sys_created_on>
+        <sys_id>b82fca7225c4fb0081cd8e677411d8fb</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6496</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="782fca7225c4fb0081cd8e677411d8fb">782fca7225c4fb0081cd8e677411d8fb</sys_attachment>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-03-11 14:15:58</sys_created_on>
+        <sys_id>3c2fca7225c4fb0081cd8e677411d8fb</sys_id>
+    </sys_attachment_doc>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772137b0bc0000001</claim_timestamp>
+        <metadata_update_name>sc_category_ef4b654adb083f00b5287ab9bf96191f</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:13:53</sys_created_on>
+        <sys_id>e00692022fb120106e97821df699b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:13:53</sys_updated_on>
+    </sys_claim>
+</record_update>

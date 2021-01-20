@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_scheduled_due_date</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Update status</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var cdt = g_form.getValue('u_scheduled_due_date'); //First Date/Time field
+var dttype = 'day'; //this can be day, hour, minute, second. By default it will return seconds.
+
+var ajax = new GlideAjax('ClientDateTimeUtils');
+ajax.addParam('sysparm_name','getNowDateTimeDiff');
+ajax.addParam('sysparm_fdt', cdt);
+ajax.addParam('sysparm_difftype', dttype);
+ajax.getXML(doSomething);
+
+function doSomething(response){
+var answer = response.responseXML.documentElement.getAttribute("answer");
+answer = Math.ceil(answer);
+	if(answer ==0 ){
+		g_form.setValue('u_status','due');
+	}
+	else if(answer<0){
+		g_form.setValue('u_status','past due');
+	}
+	else
+		g_form.setValue('u_status','pending');
+	
+}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-25 21:11:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50e76752db7323002ffa0d53ca9619e6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Update status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_script_client_50e76752db7323002ffa0d53ca9619e6</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:12:52</sys_updated_on>
+        <table>u_service_orders</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772136c2250000001</claim_timestamp>
+        <metadata_update_name>sys_script_client_50e76752db7323002ffa0d53ca9619e6</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:12:52</sys_created_on>
+        <sys_id>b1c59ace2f7120106e97821df699b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:12:52</sys_updated_on>
+    </sys_claim>
+</record_update>

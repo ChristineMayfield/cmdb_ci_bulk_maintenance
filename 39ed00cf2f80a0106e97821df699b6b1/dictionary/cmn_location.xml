@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" label="Location" max_length="40" name="cmn_location" sizeclass="430" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,tree_picker=true" label="Parent Site" max_length="32" name="parent" reference="cmn_location" reference_cascade_rule="restrict" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

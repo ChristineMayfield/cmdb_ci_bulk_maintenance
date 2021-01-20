@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.MaintenanceManagementInitiation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Links to a newly created Maintenance order that transfers any relevant information.</description>
+        <name>MaintenanceManagementInitiation</name>
+        <script><![CDATA[var MaintenanceManagementInitiation = Class.create();
+MaintenanceManagementInitiation.prototype = {
+	initialize: function() {
+	},
+	
+	
+	createMaintenanceOrderFromAsset: function(asset) {
+		
+		var assetRec = asset;
+			
+			var maintOrder = new GlideRecord("u_maintenance_orders");
+			maintOrder.initialize();
+			maintOrder.short_description = "Maintenance Order Created from Asset Record " + asset.display_name;
+			maintOrder.cmdb_ci = asset.ci.sys_id;
+			maintOrder.insert();
+		
+		var as = "Maint Order created for Asset " + asset.display_name;
+		gs.addInfoMessage(as);	
+		action.setRedirectURL(maintOrder);
+			action.setReturnURL(asset);
+		},
+		
+		createMaintenanceOrderFromCI: function(ci) {
+			
+			var ciRec = ci;
+			
+			var maintOrder = new GlideRecord("u_maintenance_orders");
+			maintOrder.initialize();
+			maintOrder.short_description = "Maintenance Order Created from CI Record " + ci.name;
+			maintOrder.cmdb_ci = ci.sys_id;
+			maintOrder.insert();
+			
+			var ciN = "Maint Order created for CI " + ci.name;			
+			gs.addInfoMessage(ciN);
+			// redirect to new Maint order
+			action.setRedirectURL(maintOrder);
+			action.setReturnURL(ci);
+		},
+	
+		createMaintenanceOrderFromRITM: function(ritm) {
+			
+			var ritmRec = ritm;
+			
+			var maintOrder = new GlideRecord("u_maintenance_orders");
+			maintOrder.initialize();
+			maintOrder.short_description = "Maintenance Order Created from " + ritmRec.number;
+			maintOrder.parent = ritmRec.sys_id;
+			maintOrder.cmdb_ci = ritmRec.configuration_item.sys_id;
+			maintOrder.insert();
+			
+			var ritmN = "Maint Order created for " + ritmRec.number;			
+			gs.addInfoMessage(ritmN);
+			// redirect to new Maint order
+			action.setRedirectURL(maintOrder);
+			action.setReturnURL(ritmRec);
+		},
+		
+		
+		
+
+		
+		
+		type: 'MaintenanceManagementInitiation'
+	};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-03-05 10:17:25</sys_created_on>
+        <sys_id>480f1630db847f0089d573abbf961976</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>MaintenanceManagementInitiation</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_script_include_480f1630db847f0089d573abbf961976</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:13:13</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177213714330000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_480f1630db847f0089d573abbf961976</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:13:13</sys_created_on>
+        <sys_id>bed59ece2f7120106e97821df699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:13:13</sys_updated_on>
+    </sys_claim>
+</record_update>

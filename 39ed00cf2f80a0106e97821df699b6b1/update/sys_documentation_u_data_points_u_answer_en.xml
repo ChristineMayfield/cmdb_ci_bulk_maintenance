@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_answer" label="Answer" language="en" table="u_data_points">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_answer</element>
+            <help/>
+            <hint/>
+            <label>Answer</label>
+            <language>en</language>
+            <name>u_data_points</name>
+            <plural>Answers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-14 22:14:53</sys_created_on>
+            <sys_id>d40d8f3adb6323002ffa0d53ca961960</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Answer</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_documentation_u_data_points_u_answer_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:06:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772130f19b0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_data_points_u_answer_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:06:31</sys_created_on>
+        <sys_id>24541e0e2f7120106e97821df699b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:06:31</sys_updated_on>
+    </sys_claim>
+</record_update>

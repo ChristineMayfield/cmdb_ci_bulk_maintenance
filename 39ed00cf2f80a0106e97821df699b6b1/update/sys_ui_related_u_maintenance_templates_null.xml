@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="u_maintenance_templates" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Maintenance Templates - Default view" name="u_maintenance_templates" related_list="NULL" sys_domain="global" view="Default view">1e482a9ddbb323002ffa0d53ca961967</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>u_m2m_maintenance_data_points.u_maintenance_templates</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-03 11:03:37</sys_created_on>
+            <sys_id>cea88e7ddb39730089d573abbf9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-03 11:03:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Maintenance Templates - Default view" name="u_maintenance_templates" related_list="NULL" sys_domain="global" view="Default view">1e482a9ddbb323002ffa0d53ca961967</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>u_service_orders.u_template</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-03 11:03:37</sys_created_on>
+            <sys_id>0aa88e7ddb39730089d573abbf9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-03 11:03:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Maintenance Templates - Default view" name="u_maintenance_templates" related_list="NULL" sys_domain="global" view="Default view">1e482a9ddbb323002ffa0d53ca961967</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>u_m2m_swt_template_maintenance.u_maintenance_templates</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-03 11:03:37</sys_created_on>
+            <sys_id>0ea88e7ddb39730089d573abbf9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-03 11:03:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Maintenance Templates - Default view</calculated_name>
+            <filter/>
+            <name>u_maintenance_templates</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-03 11:03:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e482a9ddbb323002ffa0d53ca961967</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Maintenance Templates - Default view</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_related_u_maintenance_templates_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:05:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177213036900000001</claim_timestamp>
+        <metadata_update_name>sys_ui_related_u_maintenance_templates_null</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:05:43</sys_created_on>
+        <sys_id>c124daca2f7120106e97821df699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:05:43</sys_updated_on>
+    </sys_claim>
+</record_update>

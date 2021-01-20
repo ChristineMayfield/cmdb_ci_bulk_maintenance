@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b93b7d500a0a0b79002248c5700d4384" sys_domain="global" table="sys_db_view_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>0</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>6a08c4badb00bf00b5287ab9bf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>variable_prefix</element>
+            <position>1</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>ea08c4badb00bf00b5287ab9bf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>2</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>6e08c4badb00bf00b5287ab9bf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>ee08c4badb00bf00b5287ab9bf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_scope</element>
+            <position>4</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>6208c4badb00bf00b5287ab9bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>view</element>
+            <position>5</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>e208c4badb00bf00b5287ab9bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>6608c4badb00bf00b5287ab9bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>where_clause</element>
+            <position>7</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>e608c4badb00bf00b5287ab9bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>left_join</element>
+            <position>8</position>
+            <sys_created_by>fshaikh</sys_created_by>
+            <sys_created_on>2019-03-11 04:25:44</sys_created_on>
+            <sys_id>6a08c4badb00bf00b5287ab9bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_view_table" sys_domain="global" view="Default view">b93b7d500a0a0b79002248c5700d4384</sys_ui_section>
+            <sys_updated_by>fshaikh</sys_updated_by>
+            <sys_updated_on>2019-03-11 04:25:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_db_view_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-02-27 19:34:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b93b7d500a0a0b79002248c5700d4384</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>sys_db_view_table</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Database Views" source="com.glide.db_view">365bc761db31001070b929e1ca961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_section_b93b7d500a0a0b79002248c5700d4384</sys_update_name>
+            <sys_updated_by>ChristineMayfield</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:14:15</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772138039e0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_b93b7d500a0a0b79002248c5700d4384</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:14:15</sys_created_on>
+        <sys_id>bd16da022fb120106e97821df699b650</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:14:15</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177213803870000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_b93b7d500a0a0b79002248c5700d4384</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.glide.db_view</previous_claim_name>
+        <previous_claim_scope>com.glide.db_view</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:14:15</sys_created_on>
+        <sys_id>7116da022fb120106e97821df699b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:14:15</sys_updated_on>
+    </sys_claim>
+</record_update>

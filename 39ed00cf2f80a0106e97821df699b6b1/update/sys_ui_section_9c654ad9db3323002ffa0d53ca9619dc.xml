@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9c654ad9db3323002ffa0d53ca9619dc" sys_domain="global" table="u_data_points" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>62527dc925947f0081cd8e677411d81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <text>Data Point Desktop Procedures</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>62527dc925947f0081cd8e677411d81b</element>
+            <position>0</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>26527dc925947f0081cd8e677411d81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_display_name</element>
+            <position>1</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>a6527dc925947f0081cd8e677411d81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>2a527dc925947f0081cd8e677411d81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_questions</element>
+            <position>3</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>aa527dc925947f0081cd8e677411d81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>2e527dc925947f0081cd8e677411d81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_answer</element>
+            <position>5</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>ae527dc925947f0081cd8e677411d81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <position>6</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-03-18 11:56:32</sys_created_on>
+            <sys_id>22527dc925947f0081cd8e677411d81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_data_points" sys_domain="global" view="Default view">9c654ad9db3323002ffa0d53ca9619dc</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-03-18 11:56:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_data_points</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-22 11:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c654ad9db3323002ffa0d53ca9619dc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_data_points</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_section_9c654ad9db3323002ffa0d53ca9619dc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:06:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177213107100000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_9c654ad9db3323002ffa0d53ca9619dc</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 19:06:37</sys_created_on>
+        <sys_id>c6545e0e2f7120106e97821df699b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:06:37</sys_updated_on>
+    </sys_claim>
+</record_update>
