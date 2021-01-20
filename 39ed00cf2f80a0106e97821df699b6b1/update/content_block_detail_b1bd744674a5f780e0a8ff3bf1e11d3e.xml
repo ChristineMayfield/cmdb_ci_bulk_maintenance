@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_detail">
+    <content_block_detail action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>kb</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame display_value="">cf52ad460a0a0b6300321234a7187571</frame>
+        <logged_on>false</logged_on>
+        <model_id>05e970c274a5f780e0a8ff3bf1e11d34</model_id>
+        <model_table>kb_knowledge</model_table>
+        <name>Maint App Primary Knowledge Article</name>
+        <script/>
+        <sys_class_name>content_block_detail</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-05-22 13:59:44</sys_created_on>
+        <sys_id>b1bd744674a5f780e0a8ff3bf1e11d3e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Maint App Primary Knowledge Article</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>content_block_detail_b1bd744674a5f780e0a8ff3bf1e11d3e</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:44:16</sys_updated_on>
+        <type>page</type>
+    </content_block_detail>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721537eec0000001</claim_timestamp>
+        <metadata_update_name>content_block_detail_b1bd744674a5f780e0a8ff3bf1e11d3e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:44:16</sys_created_on>
+        <sys_id>edfc9e022ff120106e97821df699b625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:44:16</sys_updated_on>
+    </sys_claim>
+</record_update>

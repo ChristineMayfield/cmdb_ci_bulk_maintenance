@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>u_choice_answer</element>
+        <name>u_site_walk_thru_data</name>
+        <style>background-color:green;font-weight:bold;color:#000000;font-size:16px;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-05-09 18:24:57</sys_created_on>
+        <sys_id>dfed3279dbdd3b40b5287ab9bf961901</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_site_walk_thru_data</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_ui_style_dfed3279dbdd3b40b5287ab9bf961901</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:43:34</sys_updated_on>
+        <value>javascript:current.u_parameter_evaluation=='pass'&amp;&amp;current.u_data_point.u_answer_type=='choice';</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=dfed3279dbdd3b40b5287ab9bf961901"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772152dc950000001</claim_timestamp>
+        <metadata_update_name>sys_ui_style_dfed3279dbdd3b40b5287ab9bf961901</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:43:34</sys_created_on>
+        <sys_id>5fcc1a022ff120106e97821df699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:43:34</sys_updated_on>
+    </sys_claim>
+</record_update>

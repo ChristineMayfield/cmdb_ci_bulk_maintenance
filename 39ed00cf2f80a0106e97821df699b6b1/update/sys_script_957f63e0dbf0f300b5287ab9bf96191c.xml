@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_maintenance_data</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="u_maintenance_data">u_data_point.u_answer_type=decimal_number^u_number_answerISNOTEMPTY^EQ<item endquery="false" field="u_number_answer" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Decimal Parameter Evaluation</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	
+	//Farid Shaikh
+	if(current.u_data_point.u_parameter_type == "greater_less_than"){
+		//gs.log('Inside Greater/Less than',"MaintenanceData_DevFarid");
+		if(current.u_data_point.u_greater_less_than_parameter == "greater_than"){
+			//gs.log('Inside Greater/Less than::Greater Than',"MaintenanceData_DevFarid");
+			if(current.u_number_answer > current.u_data_point.u_parameter_value ){
+				current.setValue('u_parameter_evaluation', 'fail');
+				//gs.log('Inside Greater/Less than::Greater Than::pass',"MaintenanceData_DevFarid");
+			}
+			else{
+				current.setValue('u_parameter_evaluation', 'pass');
+				//gs.log('Inside Greater/Less than::Greater Than::fail',"MaintenanceData_DevFarid");
+			}
+			
+		}
+		else{//current.u_data_point.u_greater_less_than_parameter == "less_than"
+			//gs.log('Inside Greater/Less than::LessThan',"MaintenanceData_DevFarid");
+			if(current.u_number_answer < current.u_data_point.u_parameter_value ){
+				current.setValue('u_parameter_evaluation', 'fail');
+				//gs.log('Inside Greater/Less than::LessThan::Pass',"MaintenanceData_DevFarid");
+			}
+			else{
+				current.setValue('u_parameter_evaluation', 'pass');
+				//gs.log('Inside Greater/Less than::LessThan::Fail',"MaintenanceData_DevFarid");
+			}
+			
+		}
+	}
+	else if(current.u_data_point.u_parameter_type == "custom"){
+		//gs.log('Inside Custom',"MaintenanceData_DevFarid");
+		if(current.u_data_point.u_custom_operand_parameter == "and"){
+			//gs.log('Custom::Inside Custom AND',"MaintenanceData_DevFarid");
+			if(current.u_number_answer <= current.u_data_point.u_less_than_value && current.u_number_answer >= current.u_data_point.u_greater_than_value){
+				current.setValue('u_parameter_evaluation', 'fail');
+				//gs.log('Custom::Inside Custom AND::PASS',"MaintenanceData_DevFarid");
+			}
+			else{
+				current.setValue('u_parameter_evaluation', 'pass');
+				//gs.log('Custom::Inside Custom AND::FAIL',"MaintenanceData_DevFarid");
+			}
+			
+		}
+		else if(current.u_data_point.u_custom_operand_parameter == "or"){
+			//gs.log('Inside Custom OR',"MaintenanceData_DevFarid");
+			if(current.u_number_answer < current.u_data_point.u_less_than_value || current.u_number_answer > current.u_data_point.u_greater_than_value){
+				current.setValue('u_parameter_evaluation', 'fail');
+				//gs.log('Custom::Inside Custom OR::PASS',"MaintenanceData_DevFarid");
+			}
+			else{
+				current.setValue('u_parameter_evaluation', 'pass');
+				//gs.log('Custom::Inside Custom OR::FAIL',"MaintenanceData_DevFarid");
+			}
+		}
+		
+	}
+	
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>fshaikh</sys_created_by>
+        <sys_created_on>2019-04-11 04:17:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>957f63e0dbf0f300b5287ab9bf96191c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Set Decimal Parameter Evaluation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_script_957f63e0dbf0f300b5287ab9bf96191c</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:39:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=957f63e0dbf0f300b5287ab9bf96191c"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177214ecdcd0000001</claim_timestamp>
+        <metadata_update_name>sys_script_957f63e0dbf0f300b5287ab9bf96191c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:39:08</sys_created_on>
+        <sys_id>56cb168e2fb120106e97821df699b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:39:08</sys_updated_on>
+    </sys_claim>
+</record_update>

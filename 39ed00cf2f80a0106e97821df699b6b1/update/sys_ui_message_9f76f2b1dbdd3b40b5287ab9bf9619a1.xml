@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>Site Walk Thru Desktop Procedures</key>
+        <language>en</language>
+        <message>&lt;span style="color:#666666;"&gt;Site Walk Thru records will be automatically created by the system based on a create Planned SWT record "Scheduled Due Date." From a Planned SWT, a user can also manually generate a Site Walk Thru record. In a Site Walk Thru record, you will notice a related list of SWT Data records. These records will each contain a CI, a Data Point (question, answer, answer type) and a Decimal/Choice Answer field along with Comments which a user will need to fill out as part of the Site Walk Thru process &lt;b&gt;&#13;
+&#13;
+For more information, you can view the Knowledge article, &lt;a id="permalink" class="linked" style="color:#666666;"  href="/nav_to.do?uri=%2Fkb_view.do%3Fsys_kb_id%3Dbfbdc10e74a5f780e0a8ff3bf1e11d46" target="_blank"&gt;Site Walk Thru Desktop Procedures&lt;/a&gt;&lt;/b&gt; for step by step instructions on how to create Site Walk Thrus and the data records that feed into this process. </message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-05-09 17:54:35</sys_created_on>
+        <sys_id>9f76f2b1dbdd3b40b5287ab9bf9619a1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Site Walk Thru Desktop Procedures</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_ui_message_9f76f2b1dbdd3b40b5287ab9bf9619a1</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:42:26</sys_updated_on>
+    </sys_ui_message>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>1772151d3aa0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_message_9f76f2b1dbdd3b40b5287ab9bf9619a1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:42:26</sys_created_on>
+        <sys_id>f68c12022ff120106e97821df699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:42:26</sys_updated_on>
+    </sys_claim>
+</record_update>

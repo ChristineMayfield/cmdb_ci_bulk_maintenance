@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="25c058ffdbc9f74089d573abbf961955" sys_domain="global" table="u_swt_template" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:35</sys_created_on>
+            <sys_id>bac91f0edbf1b300b5287ab9bf9619ed</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <text>SWTtemplateMaster</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bac91f0edbf1b300b5287ab9bf9619ed</element>
+            <position>0</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>b6c99f0edbf1b300b5287ab9bf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_display_name</element>
+            <position>1</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>7ec99f0edbf1b300b5287ab9bf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <position>2</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>fec99f0edbf1b300b5287ab9bf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>72c99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_start_date</element>
+            <position>4</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>f2c99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_end_date</element>
+            <position>5</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>76c99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>f6c99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number_planned_swts</element>
+            <position>7</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>7ac99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_days</element>
+            <position>8</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>fac99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>7ec99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_notes</element>
+            <position>10</position>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-06-04 11:36:36</sys_created_on>
+            <sys_id>fec99f0edbf1b300b5287ab9bf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_swt_template" sys_domain="global" view="Default view">25c058ffdbc9f74089d573abbf961955</sys_ui_section>
+            <sys_updated_by>Christine.Mayfield</sys_updated_by>
+            <sys_updated_on>2019-06-04 11:36:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_swt_template</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-03 00:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25c058ffdbc9f74089d573abbf961955</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_swt_template</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_ui_section_25c058ffdbc9f74089d573abbf961955</sys_update_name>
+            <sys_updated_by>ChristineMayfield</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:43:51</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721531de70000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_25c058ffdbc9f74089d573abbf961955</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:43:51</sys_created_on>
+        <sys_id>d3dcda022ff120106e97821df699b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:43:51</sys_updated_on>
+    </sys_claim>
+</record_update>

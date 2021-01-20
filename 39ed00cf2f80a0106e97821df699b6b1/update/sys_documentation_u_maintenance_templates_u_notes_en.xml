@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_notes" label="Notes to add to Site Walk Thru record" language="en" table="u_maintenance_templates">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_notes</element>
+            <help/>
+            <hint/>
+            <label>Notes to add to Site Walk Thru record</label>
+            <language>en</language>
+            <name>u_maintenance_templates</name>
+            <plural>Notes to add to Site Walk Thru records</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Christine.Mayfield</sys_created_by>
+            <sys_created_on>2019-05-20 18:26:05</sys_created_on>
+            <sys_id>c3a7a315d5e1f70081cdba5cfccb7f0a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Notes to add to Site Walk Thru record</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+            <sys_update_name>sys_documentation_u_maintenance_templates_u_notes_en</sys_update_name>
+            <sys_updated_by>ChristineMayfield</sys_updated_by>
+            <sys_updated_on>2021-01-20 19:43:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177215312c50000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_maintenance_templates_u_notes_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:43:48</sys_created_on>
+        <sys_id>36dc9a022ff120106e97821df699b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:43:48</sys_updated_on>
+    </sys_claim>
+</record_update>

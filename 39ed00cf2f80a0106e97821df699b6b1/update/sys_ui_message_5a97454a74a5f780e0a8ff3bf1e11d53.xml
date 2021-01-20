@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>MaintAPPTemplates</key>
+        <language>en</language>
+        <message>&lt;span style="color:#666666;"&gt;A Maintenance Template is used to create templates for &lt;b&gt;&lt;i&gt;Scheduled Maintenance Orders&lt;/i&gt;&lt;/b&gt; (Record Type = "Maintenance Order") and &lt;b&gt;&lt;i&gt;Site Walk Thrus&lt;/i&gt;&lt;/b&gt;  (Record Type = "Walk Thru"). For more information, you can view the following Knowledge articles:&lt;/br&gt;&#13;
+&lt;li&gt;How to create a &lt;a id="permalink" class="linked" style="color:#666666;"  href="/nav_to.do?uri=%2Fkb_view.do%3Fsys_kb_id%3Ddf17414a74a5f780e0a8ff3bf1e11d92"target=_blank"&gt;&lt;b&gt;Scheduled Maintenance Order Template.&lt;/b&gt;&lt;/a&gt; Create one Scheduled Maintenance Order template for each model of CI that requires a unique set of data points.&lt;/li&gt;&#13;
+&lt;li&gt;How to create &lt;a id="permalink" class="linked" style="color:#666666;"  href="/nav_to.do?uri=%2Fkb_view.do%3Fsys_kb_id%3Da181a3b2f5fdfb80e0a8112bb40904bb"target=_blank"&gt;&lt;b&gt;SWT Templates.&lt;/b&gt;&lt;/a&gt;  Create one template (these will be your site walk thru sub-templates) for each model of equipment with a unique set of data points, one for Cylinder Levels and one for Sample Pumps.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-05-22 14:42:31</sys_created_on>
+        <sys_id>5a97454a74a5f780e0a8ff3bf1e11d53</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>MaintAPPTemplates</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_ui_message_5a97454a74a5f780e0a8ff3bf1e11d53</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:44:15</sys_updated_on>
+    </sys_ui_message>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721537bee0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_message_5a97454a74a5f780e0a8ff3bf1e11d53</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:44:15</sys_created_on>
+        <sys_id>d5fc9e022ff120106e97821df699b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:44:15</sys_updated_on>
+    </sys_claim>
+</record_update>

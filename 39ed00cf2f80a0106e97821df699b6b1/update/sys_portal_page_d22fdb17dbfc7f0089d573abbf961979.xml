@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-01-20 19:47:40">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-04-19 16:09:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d22fdb17dbfc7f0089d573abbf961979</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PA Service Orders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_portal_page_d22fdb17dbfc7f0089d573abbf961979</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:44:16</sys_updated_on>
+        <title>PA Service Orders</title>
+        <user/>
+        <view>pa_new_tab_2_3</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Service Orders">d22fdb17dbfc7f0089d573abbf961979</page>
+                <summary>Maintenance Service Orders</summary>
+                <sys_created_by>Christine.Mayfield</sys_created_by>
+                <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                <sys_id>0b717713db30bf0089d573abbf96190a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-04-19 10:29:42">0b717713db30bf0089d573abbf96190a</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                        <sys_id>03717713db30bf0089d573abbf96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                        <value>Maintenance Service Orders</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-04-19 10:29:42">0b717713db30bf0089d573abbf96190a</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                        <sys_id>07717713db30bf0089d573abbf96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-04-19 10:29:42">0b717713db30bf0089d573abbf96190a</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                        <sys_id>0f717713db30bf0089d573abbf96190a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                        <value>5e82e71edb3323002ffa0d53ca961925</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-04-19 10:29:42">0b717713db30bf0089d573abbf96190a</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                        <sys_id>43717713db30bf0089d573abbf96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-04-19 10:29:42">0b717713db30bf0089d573abbf96190a</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                        <sys_id>4f717713db30bf0089d573abbf96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                        <value>calendar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-04-19 10:29:42">0b717713db30bf0089d573abbf96190a</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                        <sys_id>8b717713db30bf0089d573abbf96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-04-19 10:29:42">0b717713db30bf0089d573abbf96190a</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:29:42</sys_created_on>
+                        <sys_id>c7717713db30bf0089d573abbf96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:29:42</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Service Orders">d22fdb17dbfc7f0089d573abbf961979</page>
+                <summary>Service Orders Tomorrow</summary>
+                <sys_created_by>Christine.Mayfield</sys_created_by>
+                <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                <sys_id>94f8af9bdbfc7f0089d573abbf961973</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-04-19 09:52:23">94f8af9bdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                        <sys_id>10f8af9bdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-04-19 09:52:23">94f8af9bdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                        <sys_id>1cf8af9bdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-04-19 09:52:23">94f8af9bdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                        <sys_id>58f8af9bdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-04-19 09:52:23">94f8af9bdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                        <sys_id>94f8af9bdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-04-19 09:52:23">94f8af9bdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                        <sys_id>d0f8af9bdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-04-19 09:52:23">94f8af9bdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                        <sys_id>d8f8af9bdbfc7f0089d573abbf961973</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                        <value>46a2e3d7dbfc7f0089d573abbf961955</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-04-19 09:52:23">94f8af9bdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:52:23</sys_created_on>
+                        <sys_id>dcf8af9bdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:52:23</sys_updated_on>
+                        <value>Service Orders Tomorrow</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Service Orders">d22fdb17dbfc7f0089d573abbf961979</page>
+                <summary>Service Orders in the Next Month</summary>
+                <sys_created_by>Christine.Mayfield</sys_created_by>
+                <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                <sys_id>be5aebdbdbfc7f0089d573abbf961905</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-04-19 09:58:34">be5aebdbdbfc7f0089d573abbf961905</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                        <sys_id>325a6fdbdbfc7f0089d573abbf96191e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-04-19 09:58:34">be5aebdbdbfc7f0089d573abbf961905</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                        <sys_id>325aebdbdbfc7f0089d573abbf961907</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-04-19 09:58:34">be5aebdbdbfc7f0089d573abbf961905</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                        <sys_id>7e5aebdbdbfc7f0089d573abbf961906</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-04-19 09:58:34">be5aebdbdbfc7f0089d573abbf961905</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                        <sys_id>b25aebdbdbfc7f0089d573abbf961906</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                        <value>ce3a6bdbdbfc7f0089d573abbf9619fc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-04-19 09:58:34">be5aebdbdbfc7f0089d573abbf961905</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                        <sys_id>ba5aebdbdbfc7f0089d573abbf961906</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-04-19 09:58:34">be5aebdbdbfc7f0089d573abbf961905</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                        <sys_id>f25a6fdbdbfc7f0089d573abbf96191e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                        <value>Service Orders in the Next Month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-04-19 09:58:34">be5aebdbdbfc7f0089d573abbf961905</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:58:34</sys_created_on>
+                        <sys_id>f65aebdbdbfc7f0089d573abbf961906</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:58:34</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Service Orders">d22fdb17dbfc7f0089d573abbf961979</page>
+                <summary>Service Orders This Week</summary>
+                <sys_created_by>Christine.Mayfield</sys_created_by>
+                <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                <sys_id>ceb967dbdbfc7f0089d573abbf9619b1</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                <sys_updated_on>2019-04-19 16:55:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-04-19 09:55:46">ceb967dbdbfc7f0089d573abbf9619b1</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                        <sys_id>06b967dbdbfc7f0089d573abbf9619b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:55:46</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-04-19 09:55:46">ceb967dbdbfc7f0089d573abbf9619b1</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                        <sys_id>0ab967dbdbfc7f0089d573abbf9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:55:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-04-19 09:55:46">ceb967dbdbfc7f0089d573abbf9619b1</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                        <sys_id>42b967dbdbfc7f0089d573abbf9619b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:55:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-04-19 09:55:46">ceb967dbdbfc7f0089d573abbf9619b1</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                        <sys_id>8eb967dbdbfc7f0089d573abbf9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:55:46</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-04-19 09:55:46">ceb967dbdbfc7f0089d573abbf9619b1</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                        <sys_id>c2b967dbdbfc7f0089d573abbf9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:55:46</sys_updated_on>
+                        <value>1e99af9bdbfc7f0089d573abbf96197d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-04-19 09:55:46">ceb967dbdbfc7f0089d573abbf9619b1</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                        <sys_id>c6b967dbdbfc7f0089d573abbf9619b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:55:46</sys_updated_on>
+                        <value>Service Orders This Week</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-04-19 09:55:46">ceb967dbdbfc7f0089d573abbf9619b1</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:55:46</sys_created_on>
+                        <sys_id>cab967dbdbfc7f0089d573abbf9619b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:55:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Service Orders">d22fdb17dbfc7f0089d573abbf961979</page>
+                <summary>Service Orders Next Week</summary>
+                <sys_created_by>Christine.Mayfield</sys_created_by>
+                <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                <sys_id>d50a2bdbdbfc7f0089d573abbf9619d9</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-04-19 09:57:06">d50a2bdbdbfc7f0089d573abbf9619d9</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                        <sys_id>110a2bdbdbfc7f0089d573abbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-04-19 09:57:06">d50a2bdbdbfc7f0089d573abbf9619d9</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                        <sys_id>1d0a2bdbdbfc7f0089d573abbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-04-19 09:57:06">d50a2bdbdbfc7f0089d573abbf9619d9</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                        <sys_id>590a2bdbdbfc7f0089d573abbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-04-19 09:57:06">d50a2bdbdbfc7f0089d573abbf9619d9</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                        <sys_id>950a2bdbdbfc7f0089d573abbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-04-19 09:57:06">d50a2bdbdbfc7f0089d573abbf9619d9</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                        <sys_id>d10a2bdbdbfc7f0089d573abbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-04-19 09:57:06">d50a2bdbdbfc7f0089d573abbf9619d9</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                        <sys_id>d90a2bdbdbfc7f0089d573abbf9619d9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                        <value>56e9a7dbdbfc7f0089d573abbf9619d5</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-04-19 09:57:06">d50a2bdbdbfc7f0089d573abbf9619d9</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:57:06</sys_created_on>
+                        <sys_id>dd0a2bdbdbfc7f0089d573abbf9619da</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:57:06</sys_updated_on>
+                        <value>Service Orders Next Week</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Service Orders">d22fdb17dbfc7f0089d573abbf961979</page>
+                <summary>Service Orders Next Month</summary>
+                <sys_created_by>Christine.Mayfield</sys_created_by>
+                <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                <sys_id>e2aa231fdbfc7f0089d573abbf961998</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-04-19 09:59:55">e2aa231fdbfc7f0089d573abbf961998</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                        <sys_id>2aaa231fdbfc7f0089d573abbf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-04-19 09:59:55">e2aa231fdbfc7f0089d573abbf961998</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                        <sys_id>2eaa231fdbfc7f0089d573abbf961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-04-19 09:59:55">e2aa231fdbfc7f0089d573abbf961998</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                        <sys_id>66aa231fdbfc7f0089d573abbf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-04-19 09:59:55">e2aa231fdbfc7f0089d573abbf961998</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                        <sys_id>a2aa231fdbfc7f0089d573abbf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-04-19 09:59:55">e2aa231fdbfc7f0089d573abbf961998</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                        <sys_id>e6aa231fdbfc7f0089d573abbf961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                        <value>ab9aefdbdbfc7f0089d573abbf96194f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-04-19 09:59:55">e2aa231fdbfc7f0089d573abbf961998</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                        <sys_id>eaaa231fdbfc7f0089d573abbf961999</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                        <value>Service Orders Next Month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-04-19 09:59:55">e2aa231fdbfc7f0089d573abbf961998</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 16:59:55</sys_created_on>
+                        <sys_id>eeaa231fdbfc7f0089d573abbf961998</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 16:59:55</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Service Orders">d22fdb17dbfc7f0089d573abbf961979</page>
+                <summary>Rescheduled Service Orders</summary>
+                <sys_created_by>Christine.Mayfield</sys_created_by>
+                <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                <sys_id>f5ff63dfdbfc7f0089d573abbf961973</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-04-19 10:23:04">f5ff63dfdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                        <sys_id>31ff63dfdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-04-19 10:23:04">f5ff63dfdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                        <sys_id>3dff63dfdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-04-19 10:23:04">f5ff63dfdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                        <sys_id>79ff63dfdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2019-04-19 10:23:04">f5ff63dfdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                        <sys_id>b5ff63dfdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-04-19 10:23:04">f5ff63dfdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                        <sys_id>f1ff63dfdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-04-19 10:23:04">f5ff63dfdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                        <sys_id>f9ff63dfdbfc7f0089d573abbf961973</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                        <value>57dfef9fdbfc7f0089d573abbf961951</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-04-19 10:23:04">f5ff63dfdbfc7f0089d573abbf961973</portal_section>
+                        <sys_created_by>Christine.Mayfield</sys_created_by>
+                        <sys_created_on>2019-04-19 17:23:04</sys_created_on>
+                        <sys_id>fdff63dfdbfc7f0089d573abbf961974</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Christine.Mayfield</sys_updated_by>
+                        <sys_updated_on>2019-04-19 17:23:04</sys_updated_on>
+                        <value>Rescheduled Service Orders</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721537fcd0000001</claim_timestamp>
+        <metadata_update_name>sys_portal_page_d22fdb17dbfc7f0089d573abbf961979</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:44:16</sys_created_on>
+        <sys_id>29fc9e022ff120106e97821df699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:44:16</sys_updated_on>
+    </sys_claim>
+</record_update>

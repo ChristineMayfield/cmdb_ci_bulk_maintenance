@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Confirm Values are ready for final revie</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '' || newValue != 33 || oldValue == 33  ) {
+		return;
+	}
+	
+	var msg = 'Are you sure you have entered all of the correct Site Walk Thru Data values? Currently, the data entered will generate ' + getFails() + ' new maintenance orders';
+	var ans = confirm(msg);
+	
+	// Farid Shaikh March 20
+	if(ans==true){
+		g_form.save();
+	}
+	if(ans == false){
+		g_form.setValue('state',oldValue);
+	}
+}
+
+function getFails(){
+	var fails = 0;
+	var sys = g_form.getUniqueValue();
+	
+	var gr = new GlideRecord('u_site_walk_thru_data');
+	gr.addQuery('u_site_walk_thru', sys);
+	gr.query();
+	while(gr.next()){
+		if(gr.u_parameter_evaluation == 'fail'){
+			fails ++;
+		}
+	}
+	return fails;
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Christine.Mayfield</sys_created_by>
+        <sys_created_on>2019-05-09 18:05:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4889f635dbdd3b40b5287ab9bf96191c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Confirm Values are ready for final revie</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_script_client_4889f635dbdd3b40b5287ab9bf96191c</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:43:50</sys_updated_on>
+        <table>u_site_walk_thru</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721531c550000001</claim_timestamp>
+        <metadata_update_name>sys_script_client_4889f635dbdd3b40b5287ab9bf96191c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:43:50</sys_created_on>
+        <sys_id>dfdcda022ff120106e97821df699b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:43:50</sys_updated_on>
+    </sys_claim>
+</record_update>

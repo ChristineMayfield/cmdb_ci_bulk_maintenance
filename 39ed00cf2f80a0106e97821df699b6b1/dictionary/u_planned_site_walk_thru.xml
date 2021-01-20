@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Planned SWT" max_length="40" name="u_planned_site_walk_thru" sizeclass="0" type="collection">
+        <element audit="true" label="Original Scheduled Due Date" max_length="40" name="u_original_scheduled_due_date" read_only="true" type="glide_date"/>
+        <element audit="true" label="Scheduled Due Date" mandatory="true" max_length="40" name="u_scheduled_due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="pending" label="Status" max_length="40" name="u_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Created" value="created"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+    </element>
+</database>

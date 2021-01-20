@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" label="Maintenance Service Orders" max_length="40" name="u_service_orders" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Location" max_length="32" name="u_location" read_only="true" reference="cmn_location" type="reference"/>
         <element label="Name" mandatory="true" max_length="100" name="u_name" type="string"/>
         <element label="Notes" max_length="1000" name="u_notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="# of CIs" max_length="40" name="u_of_cis" read_only="true" type="integer"/>
@@ -15,6 +16,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Template" max_length="32" name="u_template" read_only="true" reference="u_maintenance_templates" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <index name="index">
+            <element name="u_location"/>
+        </index>
+        <index name="index2">
             <element name="u_template"/>
         </index>
     </element>

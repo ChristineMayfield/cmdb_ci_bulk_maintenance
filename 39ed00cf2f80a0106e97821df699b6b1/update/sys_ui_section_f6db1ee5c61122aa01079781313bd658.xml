@@ -196,16 +196,16 @@
     </sys_ui_section>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
-        <claim_timestamp>1772143709c0000001</claim_timestamp>
+        <claim_timestamp>177215671050000001</claim_timestamp>
         <metadata_update_name>sys_ui_section_f6db1ee5c61122aa01079781313bd658</metadata_update_name>
         <previous_claim_app_version>1.0.0</previous_claim_app_version>
         <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
         <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
         <sys_created_by>ChristineMayfield</sys_created_by>
-        <sys_created_on>2021-01-20 19:26:43</sys_created_on>
-        <sys_id>ecf8da462fb120106e97821df699b6c5</sys_id>
+        <sys_created_on>2021-01-20 19:47:29</sys_created_on>
+        <sys_id>64bd92822ff120106e97821df699b68e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>ChristineMayfield</sys_updated_by>
-        <sys_updated_on>2021-01-20 19:26:43</sys_updated_on>
+        <sys_updated_on>2021-01-20 19:47:29</sys_updated_on>
     </sys_claim>
 </record_update>

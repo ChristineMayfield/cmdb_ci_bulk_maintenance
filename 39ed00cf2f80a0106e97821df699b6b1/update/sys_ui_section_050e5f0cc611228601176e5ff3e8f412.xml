@@ -277,30 +277,16 @@
     </sys_ui_section>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
-        <claim_timestamp>177213067380000001</claim_timestamp>
+        <claim_timestamp>17721566a090000001</claim_timestamp>
         <metadata_update_name>sys_ui_section_050e5f0cc611228601176e5ff3e8f412</metadata_update_name>
         <previous_claim_app_version>1.0.0</previous_claim_app_version>
         <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
         <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-20 19:05:56</sys_created_on>
-        <sys_id>0434deca2f7120106e97821df699b613</sys_id>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:47:27</sys_created_on>
+        <sys_id>d4bd52822ff120106e97821df699b689</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-20 19:05:56</sys_updated_on>
-    </sys_claim>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
-        <claim_timestamp>177213067200000001</claim_timestamp>
-        <metadata_update_name>sys_ui_section_050e5f0cc611228601176e5ff3e8f412</metadata_update_name>
-        <previous_claim_app_version>1.0.0</previous_claim_app_version>
-        <previous_claim_name>com.glide.tables_and_columns</previous_claim_name>
-        <previous_claim_scope>com.glide.tables_and_columns</previous_claim_scope>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-20 19:05:56</sys_created_on>
-        <sys_id>c434deca2f7120106e97821df699b613</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-20 19:05:56</sys_updated_on>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:47:27</sys_updated_on>
     </sys_claim>
 </record_update>
