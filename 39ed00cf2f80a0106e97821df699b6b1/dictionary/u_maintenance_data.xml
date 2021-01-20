@@ -5,6 +5,9 @@
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Data Point" max_length="32" name="u_data_point" reference="u_data_points" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Maintenance Order" max_length="32" name="u_maintenance_order" read_only="true" reference="u_maintenance_orders" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Decimal Number Answer" max_length="20" name="u_number_answer" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Parameter Evaluation" max_length="40" name="u_parameter_evaluation" type="choice">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Value" max_length="20" name="u_value" type="decimal"/>
         <element label="Work Notes" max_length="4000" name="u_work_notes" type="journal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Yes / No" max_length="40" name="u_yes_no" type="choice">

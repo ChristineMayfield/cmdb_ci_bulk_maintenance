@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Maintenance Scheduled Due Date</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="">e8375992db9b630089d573abbf9619c2</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-03-11 03:26:22</run_start>
+        <run_time>1970-01-01 08:01:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[//GlideRecord call to fetch all Service Order records which has Scheduled Due Date == Today && Status is not Created.
+var gr = new GlideRecord('u_service_orders');
+gr.addEncodedQuery('u_scheduled_due_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^u_status!=created');
+gr.query();
+while(gr.next()){
+	//call Script include function to create an associated Maintanence Order record for every service order record.
+	(new MaintenanceUtils()).createScheduledMaintanenceOrder(gr);
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>fshaikh</sys_created_by>
+        <sys_created_on>2019-03-11 03:27:23</sys_created_on>
+        <sys_id>097a7f62db00bf00b5287ab9bf9619c2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Maintenance Scheduled Due Date</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sysauto_script_097a7f62db00bf00b5287ab9bf9619c2</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:42:03</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>17721517acc0000001</claim_timestamp>
+        <metadata_update_name>sysauto_script_097a7f62db00bf00b5287ab9bf9619c2</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:42:03</sys_created_on>
+        <sys_id>dd7c9ece2fb120106e97821df699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:42:03</sys_updated_on>
+    </sys_claim>
+</record_update>

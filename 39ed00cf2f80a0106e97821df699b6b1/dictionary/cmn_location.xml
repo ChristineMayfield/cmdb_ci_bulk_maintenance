@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="all_tables.text_index_translations=true" label="Location" max_length="40" name="cmn_location" sizeclass="430" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false,tree_picker=true" label="Parent Site" max_length="32" name="parent" reference="cmn_location" reference_cascade_rule="restrict" type="reference"/>
+        <element label="End Date" max_length="40" name="u_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Maintenance Template" max_length="32" name="u_maintenance_template" reference="u_maintenance_templates" reference_qual="javascript: new MaintenanceUtils().locationTemplateQualifier(current.sys_id);" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of service orders to create" max_length="40" name="u_number_of_service_orders_to_create" read_only="true" type="integer"/>
+        <element label="Start Date" max_length="40" name="u_start_date" type="glide_date"/>
         <index name="index">
             <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="u_maintenance_template"/>
         </index>
     </element>
 </database>

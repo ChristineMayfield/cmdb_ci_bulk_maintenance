@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>List of roles (comma-separated) that can access the history of a record.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.history.role</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2006-05-18 22:27:43</sys_created_on>
+        <sys_id>499c8a65c611228401db04ed42443324</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>glide.history.role</sys_name>
+        <sys_package display_value="System (glidesoft)" source="glidesoft">244b0f21db31001070b929e1ca9619fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</sys_scope>
+        <sys_update_name>sys_properties_499c8a65c611228401db04ed42443324</sys_update_name>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:38:57</sys_updated_on>
+        <type>string</type>
+        <value>itil,pd_admin,maint_app</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=499c8a65c611228401db04ed42443324"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
+        <claim_timestamp>177214ea0d30000001</claim_timestamp>
+        <metadata_update_name>sys_properties_499c8a65c611228401db04ed42443324</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
+        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
+        <sys_created_by>ChristineMayfield</sys_created_by>
+        <sys_created_on>2021-01-20 19:38:57</sys_created_on>
+        <sys_id>63bb528e2fb120106e97821df699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ChristineMayfield</sys_updated_by>
+        <sys_updated_on>2021-01-20 19:38:57</sys_updated_on>
+    </sys_claim>
+</record_update>

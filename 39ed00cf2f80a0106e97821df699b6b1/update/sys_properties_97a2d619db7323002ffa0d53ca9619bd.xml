@@ -24,18 +24,4 @@
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=97a2d619db7323002ffa0d53ca9619bd"/>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
-        <claim_timestamp>17721302e1b0000001</claim_timestamp>
-        <metadata_update_name>sys_properties_97a2d619db7323002ffa0d53ca9619bd</metadata_update_name>
-        <previous_claim_app_version>1.0.0</previous_claim_app_version>
-        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
-        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-20 19:05:41</sys_created_on>
-        <sys_id>6824daca2f7120106e97821df699b6c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-20 19:05:41</sys_updated_on>
-    </sys_claim>
 </record_update>
