@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-01-20 19:47:34">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-03-05 18:32:37">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -84,18 +84,4 @@
             </sys_portal>
         </related_items_node>
     </sys_portal_page>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="CMDB CI Bulk Maintenance">39ed00cf2f80a0106e97821df699b6b1</claim_owner_scope>
-        <claim_timestamp>17721537a850000001</claim_timestamp>
-        <metadata_update_name>sys_portal_page_395ab4c274a5f780e0a8ff3bf1e11d8f</metadata_update_name>
-        <previous_claim_app_version>1.0.0</previous_claim_app_version>
-        <previous_claim_name>CMDB CI Bulk Maintenance</previous_claim_name>
-        <previous_claim_scope>39ed00cf2f80a0106e97821df699b6b1</previous_claim_scope>
-        <sys_created_by>ChristineMayfield</sys_created_by>
-        <sys_created_on>2021-01-20 19:44:14</sys_created_on>
-        <sys_id>d9fc5e022ff120106e97821df699b6fe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>ChristineMayfield</sys_updated_by>
-        <sys_updated_on>2021-01-20 19:44:14</sys_updated_on>
-    </sys_claim>
 </record_update>
